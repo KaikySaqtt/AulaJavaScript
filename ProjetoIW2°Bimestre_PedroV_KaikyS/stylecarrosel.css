@@ -1,0 +1,23 @@
+section
+{
+    margin-left: 30%;
+}
+.other
+{
+    margin-right: 30%;
+    margin-top: 5%;
+}
+#central
+{
+    border: 4px solid black;
+}
+.other{
+    margin-left: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%;
+}
+body{
+    background-color: rgb(224, 141, 82);
+}
