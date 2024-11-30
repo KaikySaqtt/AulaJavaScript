@@ -3,7 +3,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dataserve="DB_2IPI";
+$dataserve="DB_2IP";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dataserve);

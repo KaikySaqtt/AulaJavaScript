@@ -6,10 +6,20 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/iw.css">
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="js/form.js"></script>
-	
     <title>Consule seu CEP</title>
+    <script>
+  $( function() {
+    $( "#accordion" ).accordion();
+  } );
+  </script>
+    <script>
+  </script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body class="cor-fundo">
@@ -25,7 +35,7 @@
 					</div>
 					<div class="mb-3">
 						<label for="data" class="form-label">Data</label>
-						<input type="date" class="form-control" id="data" name="data" >
+						<input type="date" class="form-control" id="data" name="data">
 					</div>
 					<div class="mb-3">
 						<label for="email" class="form-label">Email</label>
@@ -47,6 +57,21 @@
 						<label for="senha" class="form-label">Senha</label>
 						<input type="password" class="form-control" id="senha" name="senha">
 					</div>
+                    <div id="accordion">
+                    <h3>oque é CPF</h3>
+                    <div>
+                        <p>
+                        CPF é o cadastro de pessoa fisica, ou seja o registro da pessoa fisica de cada um, exemplo(000.000.000.00)
+                        </p>
+                    </div>
+                    <h3>oque é RG</h3>
+                    <div>
+                        <p>
+                        RG é o registro geral, ou seja o documento geral de cada pessoa, exemplo(00.000.000-0)
+                        </p>
+                    </div>
+                
+        </div>
                     <div class="mb-3">
 						<label for="cpf" class="form-label">CPF</label>
 						<input type="text" class="form-control" id="cpf" name="cpf">
